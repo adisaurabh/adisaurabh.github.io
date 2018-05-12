@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Aditya Saurabh
-email: aditya.saurabh@tu-berlin.de
-description: > # this means to ignore newlines until "baseurl:"
-  My personal webpage.
+email: aditya.saurabh@outlook.de
+description: >- # this means to ignore newlines until "baseurl:"
+  This website is an academic profile, articles, and related content by me, Aditya Saurabh; maintained by me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adityasaurabh0
@@ -24,11 +24,17 @@ github_username:  adisaurabh
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-permalink: blog/:year/:month/:title
-repository: adisaurabh/adisaurabh.github.io
+
+permalink: none
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
