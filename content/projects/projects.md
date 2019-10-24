@@ -8,5 +8,8 @@ categories: research projects
 Open projects
 -------------
 
-- Understanding noise-induced effects
+- Flame response to acoustic and vortical fluctuations (experiments and
+    modeling)
+- Atomization of bubbly flows
+- Jet breakup and atomization of liquid jets in cross flow.
 

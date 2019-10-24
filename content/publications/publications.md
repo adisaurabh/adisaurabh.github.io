@@ -4,15 +4,7 @@ layout: page
 
 ## Journals
 
-{::options parse_block_html="true" /}
-<ul class="mylist">
-{% for member in site.data.members %}
-<li>
-{{member.title}}, {{ member.authors }}, <i>{{member.journal}}</i>, <b>{{ member.year }}</b>, <a href="https://doi.org/{{ member.doi }}" style="color:#2a4d69">doi: {{ member.doi }}</a>
-<p><b>Abstract</b>.&mdash;<i>{{ member.abstract }}</i></p>
-</li>
-{% endfor %}
-</ul>
+<p>See here: <a href="https://publons.com/researcher/D-5923-2018/" style="color:#2a4d69">Profile at ResearcherID</a></p>
 
 ## Conferences
 
